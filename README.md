@@ -20,18 +20,29 @@
   - Create Emulator in Android Studio from 'AVD Manager'
 
 - Create & install 'React Native' project
-  > npx react-native init ReactNativeLabs
+  ```
+  npx react-native init ReactNativeLabs
+  ```
 - Go to project folder
-  > cd ReactNativeLabs
+  ```
+  cd ReactNativeLabs
+  ```
 - Install React Native Vector Icons
-  > npm i react-native-vector-icons
-  > npx react-native link
+  ```
+  npm i react-native-vector-icons
+  ```
+- Link your native dependencies (Link Libraries)
+  ```
+  npx react-native link
+  ```
 
 ### To Run the app on the Emulator
 
 - Open the emulator
 - In the app folder:
-  > npm run android
+  ```
+  npm run android
+  ```
 
 ### To install yarn
 
@@ -40,6 +51,16 @@
 ### To install node modules
 
     yarn
+
+### on Android Emulator:
+
+To refresh app:
+
+  `Press R then R`
+
+To show options and devTools
+
+  `Press ctrl + M`
 
 ---
 
