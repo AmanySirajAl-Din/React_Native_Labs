@@ -9,9 +9,13 @@
   - Install Android Studio for 'SDK' & 'Android Emulator'
   - Check System Variables
 
-    `JAVA_HOME: C:\Program Files\Java\jdk1.8.0_211`
+    ```
+    JAVA_HOME:
+      C:\Program Files\Java\jdk1.8.0_211
 
-    `ANDROID_HOME: C:\Users\[UserName]\AppData\Local\Android\Sdk`
+    ANDROID_HOME:
+      C:\Users\[UserName]\AppData\Local\Android\Sdk
+    ```
 
   - Create Emulator in Android Studio from 'AVD Manager'
 
@@ -31,11 +35,11 @@
 
 ### To install yarn
 
-    >npm i -g yarn
+    npm i -g yarn
 
 ### To install node modules
 
-    >yarn
+    yarn
 
 ---
 
@@ -83,12 +87,12 @@
 
 - ### App Components
 
-  
   `In 'Search' Screen`
+
   - Search Bar
   - Title
   - Movie Card
 
-  
   `In 'Movie Details' Screen`
+
   - Movie Card
