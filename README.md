@@ -43,5 +43,6 @@
 - Create 'src' folder
 - Move 'App.js' to 'src' folder
 - Rename 'App.js' to 'index.js'
+- Update 'App' path in outter 'index.js
 
-
+> > > Start Working on My App
