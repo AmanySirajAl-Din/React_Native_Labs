@@ -9,13 +9,13 @@
   - Install Android Studio for 'SDK' & 'Android Emulator'
   - Check System Variables
 
-    ```
     JAVA_HOME:
-      C:\Program Files\Java\jdk1.8.0_211
+
+    `C:\Program Files\Java\jdk1.8.0_211`
 
     ANDROID_HOME:
-      C:\Users\[UserName]\AppData\Local\Android\Sdk
-    ```
+
+    `C:\Users\[UserName]\AppData\Local\Android\Sdk`
 
   - Create Emulator in Android Studio from 'AVD Manager'
 
