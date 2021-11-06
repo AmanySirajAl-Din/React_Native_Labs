@@ -31,6 +31,17 @@
   ```
   npm i react-native-vector-icons
   ```
+- Install Axios (for HTTP requests)
+
+  ```
+  npm install axios
+  ```
+
+  - To use it:
+    ```
+    import axios from 'axios';
+    ```
+
 - Link your native dependencies (Link Libraries)
   ```
   npx react-native link
@@ -56,11 +67,11 @@
 
 To refresh app:
 
-  `Press R then R`
+`Press R then R`
 
 To show options and devTools
 
-  `Press ctrl + M`
+`Press ctrl + M`
 
 ---
 
