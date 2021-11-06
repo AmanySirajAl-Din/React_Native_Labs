@@ -9,7 +9,7 @@ import styles from './styles';
 
 const SearchBar = () => {
   return (
-    <View style={(SharedStyles.w100, styles.container)}>
+    <View style={[SharedStyles.w100, SharedStyles.center, styles.container]}>
       <TextInput
         style={[
           SharedStyles.center,
@@ -34,3 +34,6 @@ const SearchBar = () => {
 };
 
 export {SearchBar};
+
+// Touchable for touch effect
+// Pressable because of the custom touch area

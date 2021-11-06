@@ -3,7 +3,6 @@ import {COLORS, FONTS} from '../../common';
 
 export default StyleSheet.create({
   container: {
-    width: '100%',
     height: 60,
     borderRadius: 6,
     marginTop: 20,
@@ -14,11 +13,13 @@ export default StyleSheet.create({
     width: '80%',
     paddingStart: 16,
     fontSize: 16,
+    margin: 0,
   },
   iconContainer: {
     borderStartColor: COLORS.sun,
     borderStartWidth: 1,
     backgroundColor: COLORS.cloudBurst,
     width: '20%',
+    margin: 0,
   },
 });

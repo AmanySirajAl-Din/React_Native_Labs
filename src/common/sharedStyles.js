@@ -9,10 +9,10 @@ export default StyleSheet.create({
     height: '100%',
   },
   center: {
-    flex: 1,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
+    // backgroundColor: 'red',
   },
   bgSpaceCadet: {
     backgroundColor: COLORS.spaceCadet,
